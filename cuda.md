@@ -16,3 +16,16 @@
   - _Producer Consumer_, reader writer.
   - _Sleeping Barber_ : The problem consists of a barber shop with a barber, a waiting room with a number of chairs, and a number of customers. The barber is asleep until a customer arrives. When a customer arrives, the barber wakes up and cuts the customer's hair. If there are no customers, the barber goes back to sleep. The problem is how to design a discipline of behavior (a concurrent algorithm) such that the barber and the customers can do their work without colliding with each other.
   - _Data and code synchronization_ : The problem consists of a data structure that is shared among multiple threads. The data structure is a list of integers. The threads can read and write to the list. The problem is how to design a discipline of behavior (a concurrent algorithm) such that the threads can read and write to the list without colliding with each other.
+
+- Concurrent Programming Patterns:
+  - Divide and conquer: A parallel algorithm design paradigm that solves a problem by dividing it into smaller subproblems, solving the subproblems in parallel, and combining the solutions to the subproblems to solve the original problem. The parallelism comes from the fact that the subproblems can be solved in parallel. The divide-and-conquer paradigm is used in many parallel algorithms, such as quicksort, mergesort, and matrix multiplication.
+  - MapReduce: A parallel algorithm design paradigm that solves a problem by dividing it into smaller subproblems, solving the subproblems in parallel, and combining the solutions to the subproblems to solve the original problem. The parallelism comes from the fact that the subproblems can be solved in parallel. The MapReduce paradigm is used in many parallel algorithms, such as word count, matrix multiplication, and graph algorithms.
+  - Repository : manages central state across multiple running processes. Processes access amd update their own and central state through predefined communications mechanisms. Need to ensure that two processes don't update the same state at the same time.
+  - Pipelines and workflows are similar patterns that involve the flow of data from one step to another. Pipelines have a linear flow, while workflows can have cycles. These patterns are useful for dividing tasks into smaller steps and coordinating the flow of data. Pipelines are the simplest form of directed acyclic graphs (DAGs). They definitely have no cycles and they proceed from one step to another without any more advanced branching schemes such as forks and joins
+  - Recursion is a powerful technique where a function calls itself to solve a problem. It can be used to solve complex problems by dividing them into smaller subproblems. However, recursion requires careful management of state and may not be suitable for large datasets or distributed systems.
+
+#### Parallel Programming Resources :
+
+Cornell University - Functional Programming with OCaml Open Source Textbook - [textbook](https://cs3110.github.io/textbook/cover.html)
+
+Stopped in : Module 2 -> Serial Versus Parallel Code and Flynn's Taxonomy
