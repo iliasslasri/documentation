@@ -24,8 +24,20 @@
   - Pipelines and workflows are similar patterns that involve the flow of data from one step to another. Pipelines have a linear flow, while workflows can have cycles. These patterns are useful for dividing tasks into smaller steps and coordinating the flow of data. Pipelines are the simplest form of directed acyclic graphs (DAGs). They definitely have no cycles and they proceed from one step to another without any more advanced branching schemes such as forks and joins
   - Recursion is a powerful technique where a function calls itself to solve a problem. It can be used to solve complex problems by dividing them into smaller subproblems. However, recursion requires careful management of state and may not be suitable for large datasets or distributed systems.
 
+- Flynn's Taxonomy: SISD, SIMD, MISD, MIMD, see my other projects for more details.
+
+- Python3 :
+  - _thread/ threading libraries
+  - asyncio library
+  - multiprocessing library : The multiprocessing library is very powerful as it takes the idea of independent execution of threads inside of a Python 3 context and allows for execution of code outside of the current calling process and even on a remote machine. Spawn, fork and forkserver, all have three general goals. Create new processes out of the current process, though they have different results.
+
+#### CUDA Programming
+
 #### Parallel Programming Resources :
 
 Cornell University - Functional Programming with OCaml Open Source Textbook - [textbook](https://cs3110.github.io/textbook/cover.html)
 
-Stopped in : Module 2 -> Serial Versus Parallel Code and Flynn's Taxonomy
+MachineLearningPlus Parallel Programming in Python - [tutorial](https://www.machinelearningplus.com/python/parallel-processing-python/)
+
+
+-> Stopped at First lecture of Module 4 : Integrated versus Dedicated GPUs
