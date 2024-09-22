@@ -1,6 +1,6 @@
 ### GPU programming specialization
 
-- Parallel programming in my repository: [Parallel Programming](https://github.com/iliasslasri/concurrent-programming)
+- Parallel programming in my repository: [Parallel Programming](https://github.com/iliasslasri/concurrent-parallel-programming)
 - [CUDA Programming](https://www.coursera.org/specializations/gpu-programming)
 
 #### Concurrent programming
@@ -37,6 +37,9 @@
 
 <img src="cuda_assets/2.png" width="800">
 
+CUDA driver API : is a low-level API that provides direct access to the GPU hardware. It is designed for developers who need to control the hardware directly and have a deep understanding of the GPU architecture. The driver API is more complex and requires more code than the runtime API, but it provides more control and flexibility.
+- Language independent, so any base that can invoke cubin objects will be able to use this code.
+- Will need to manage devices, modules, and contexts, especially if code needs to interact with higher level libraries.
 #### Parallel Programming Resources :
 
 Cornell University - Functional Programming with OCaml Open Source Textbook - [textbook](https://cs3110.github.io/textbook/cover.html)
@@ -44,4 +47,3 @@ Cornell University - Functional Programming with OCaml Open Source Textbook - [t
 MachineLearningPlus Parallel Programming in Python - [tutorial](https://www.machinelearningplus.com/python/parallel-processing-python/)
 
 
--> Stopped at First lecture of Module 4 : Integrated versus Dedicated GPUs
