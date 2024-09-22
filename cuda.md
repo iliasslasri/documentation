@@ -33,6 +33,10 @@
 
 #### CUDA Programming
 
+<img src="cuda_assets/1.png" width="800">
+
+<img src="cuda_assets/2.png" width="800">
+
 #### Parallel Programming Resources :
 
 Cornell University - Functional Programming with OCaml Open Source Textbook - [textbook](https://cs3110.github.io/textbook/cover.html)
