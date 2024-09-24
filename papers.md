@@ -16,3 +16,4 @@ Enhancement of Fullband Speech : [pdf](https://jmvalin.ca/papers/percepnet.pdf)
 
 ## Papers read :
 [Time delay deep neural network-based universal background models for speaker recognition](https://www.danielpovey.com/files/2015_asru_tdnn_ubm.pdf)
+[A time delay neural network architecture for efficient modeling of long temporal contexts](https://www.isca-archive.org/interspeech_2015/peddinti15b_interspeech.pdf)
