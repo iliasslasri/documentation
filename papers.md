@@ -12,3 +12,7 @@ A Perceptually-Motivated Approach for Low-Complexity, Real-Time
 Enhancement of Fullband Speech : [pdf](https://jmvalin.ca/papers/percepnet.pdf)
 
 [A White Paper on Neural Network Quantization](https://arxiv.org/pdf/2106.08295)
+
+
+## Papers read :
+[Time delay deep neural network-based universal background models for speaker recognition](https://www.danielpovey.com/files/2015_asru_tdnn_ubm.pdf)
